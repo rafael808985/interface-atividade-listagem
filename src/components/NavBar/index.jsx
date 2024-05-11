@@ -6,7 +6,7 @@ function NavBar() {
         <>
             <div className={styles.barraNavegacao}>
                 <div className={styles.logo}>
-                    <h1>ATIVIDADE SESI</h1>
+                    <h1><Link className={styles.link} to="/">ATIVIDADE SESI</Link></h1>
                 </div>
 
                 <nav className={styles.navbarOpcoes}>
