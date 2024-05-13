@@ -1,13 +1,13 @@
 import styles from './Amazon.module.css';
 import NavBar from '../../components/NavBar';
 
-function Amazon() {
+function CardAmazon() {
     return (
         <>
             <NavBar />
-            <h1>Amazon</h1>
+            <h1>Card Amazon</h1>
         </>
     );
 }
 
-export default Amazon;
+export default CardAmazon;

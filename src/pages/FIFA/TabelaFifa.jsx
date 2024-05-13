@@ -1,13 +1,13 @@
 import styles from './FIFA.module.css';
 import NavBar from "../../components/NavBar";
 
-function FIFA() {
+function TabelaFifa() {
     return (
         <>
             <NavBar />
-            <h1>FIFA</h1>
+            <h1>Tabela FIFA</h1>
         </>
     );
 }
 
-export default FIFA;
+export default TabelaFifa;

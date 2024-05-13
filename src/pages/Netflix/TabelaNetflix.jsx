@@ -1,13 +1,13 @@
 import styles from './Netflix.module.css';
 import NavBar from "../../components/NavBar";
 
-function Netflix() {
+function TabelaNetflix() {
     return (
         <>
             <NavBar />
-            <h1>Netflix</h1>
+            <h1>Tabela Netflix</h1>
         </>
     );
 }
 
-export default Netflix;
+export default TabelaNetflix;
